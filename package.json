@@ -4,7 +4,8 @@
   "description": "Playwright scraper API",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "playwright install chromium"
   },
   "keywords": [],
   "author": "",
